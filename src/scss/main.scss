@@ -410,6 +410,7 @@ h2 {
       display: flex;
       align-items: center;
       justify-content: center;
+      transition: all 0.3s ease;
       &:hover,
       &:focus {
         background: #0049b0;
