@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <title>Absolute Web</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-top default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1 hidden-menu-icon">
+                        <div class="menu-icon">
+                            <button class="menu-icon__btn"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <a href="/" class="header-logo">
+                            <img src="./images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="col-md-1 col-sm-1 hidden-search-icon">
+                        <div class="search-icon">
+                            <button class="search-icon__btn"><i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-lg-offset-5 col-md-offset-2 col-sm-offset-2 search-toggle">
+                        <form class="search-form">
+                            <div class="form-group">
+                                <input type="search" class="form-control"  placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-nav default">
+            <div class="container">
+                <nav>
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Help & faq</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <section class="button-block">
+            <div class="container">
+                <h2>Buttons</h2>
+                <div class="button-block__wrap">
+                    <button type="button" class="btn btn-primary">Primary</button>
+                    <button type="button" class="btn btn-default">Default</button>
+                    <button type="button" class="btn btn-success">Success</button>
+                    <button type="button" class="btn btn-info">Info</button>
+                    <button type="button" class="btn btn-warning">Warning</button>
+                    <button type="button" class="btn btn-danger">Danger</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="inputs-block">
+            <div class="container">
+                <h2>Inputs</h2>
+                <div class="inputs-block__wrap">
+                    <div class="inputs-block__item">
+                        <div class="checkbox">
+                            <label class="checkbox">
+                                <input type="checkbox" checked>Checkbox Active
+                                <span class="check"></span>
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Checkbox
+                                <span class="check"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="inputs-block__item">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionRadio" checked>
+                                Radio Active
+                                <span class="check"></span>
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionRadio">
+                                Radio
+                                <span class="check"></span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="inputs-block__item">
+                        <div class="switcher">
+                            <label>
+                                <input type="checkbox" checked> Switcher ON
+                                <span class="check"></span>
+                            </label>
+                        </div>
+                        <div class="switcher">
+                            <label>
+                                <input type="checkbox"> Switcher OFF
+                                <span class="check"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="rating-block">
+            <div class="container">
+                <h2>Star rating</h2>
+                <div class="rating-block__wrap">
+
+                    <div class="rateYo">
+                        <div class="rateYo-star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                        </div>
+                        <span>Show rating</span>
+                        <div id="rateYo" data-percent="32%"></div>
+                    </div>
+
+                    <div class="rateYo">
+                        <div class="rateYo-star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                            <img src="./images/star-regular.svg" alt="star">
+                        </div>
+                        <span>Check rating</span>
+                        <div id="rate_radio" ></div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel">
+            <div class="container">
+                <h2>Carousel</h2>
+
+                <div class="owl-carousel owl-theme">
+                    <div data-dot="<img src='./images/img1.jpg' alt='dot-img'>">
+                        <div class="carousel__item">
+                            <div class="carousel__item-img">
+                                <img src="./images/img1.jpg" alt="img">
+                            </div>
+                            <div class="carousel__item-info">
+                                <p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+                                <h3>Chewbacca</h3>
+                                <span>July 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-dot="<img src='./images/img2.jpg' alt='dot-img'>">
+                        <div class="carousel__item">
+                            <div class="carousel__item-img">
+                                <img src="./images/img2.jpg" alt="img">
+                            </div>
+                            <div class="carousel__item-info">
+                                <p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+                                <h3>Darth Vader</h3>
+                                <span>July 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-dot="<img src='./images/img3.jpg' alt='dot-img'>">
+                        <div class="carousel__item">
+                            <div class="carousel__item-img">
+                                <img src="./images/img3.jpg" alt="img">
+                            </div>
+                            <div class="carousel__item-info">
+                                <p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+                                <h3>Yoda</h3>
+                                <span>July 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-dot="<img src='./images/img4.jpg' alt='dot-img'>">
+                        <div class="carousel__item">
+                            <div class="carousel__item-img">
+                                <img src="./images/img4.jpg" alt="img">
+                            </div>
+                            <div class="carousel__item-info">
+                                <p>When I started, I weighed over 425 pounds. What matters is that you take the steps and focus on making one good choice at a time.</p>
+                                <h3>R2-D2</h3>
+                                <span>July 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="map">
+            <div id="map"></div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer__title footer-open">
+                        <h4>Shop</h4>
+                        <button type="button" class="footer__title-icon"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="footer__link footer-info">
+                        <a href="#">Browse By Holidays</a>
+                        <a href="#">Browse By Brand</a>
+                        <a href="#">Gift of the Month Clubs</a>
+                        <a href="#">Customized Bottles</a>
+                        <a href="#">Corporate Gifts</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer__title footer-open">
+                        <h4>About</h4>
+                        <button type="button" class="footer__title-icon"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="footer__link footer-info">
+                        <a href="#">About Spirited Gifts</a>
+                        <a href="#">Read our Blog</a>
+                        <a href="#">About our Selection</a>
+                        <a href="#">Read our Reviews</a>
+                        <a href="#">Shipping & Returns</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="footer__title footer-open">
+                        <h4>More</h4>
+                        <button type="button" class="footer__title-icon"><i class="fas fa-chevron-down"></i></button>
+                    </div>
+                    <div class="footer__link footer-info">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Retailer Network</a>
+                        <a href="#">Help and FAQs</a>
+                        <a href="#">Scholarship</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer__title">
+                        <h4>Follow us</h4>
+                    </div>
+                    <div class="footer__social">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCL0sHMByhUzxstbYNWU2xsbfCSs6gTbQk&callback=initMap"
+            type="text/javascript"></script>
+</body>
+</html>
